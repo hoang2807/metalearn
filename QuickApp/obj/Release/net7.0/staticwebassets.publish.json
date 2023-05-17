@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "7OMuKolbleW5xBkSFXeaXWPNkC5PaFblmKg6ie9oBrc=",
+  "Source": "QuickApp",
+  "BasePath": "_content/QuickApp",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "QuickApp\\wwwroot",
+      "Source": "QuickApp",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project\\React_MetaLearn\\QuickApp\\wwwroot\\",
+      "BasePath": "_content/QuickApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\project\\React_MetaLearn\\QuickApp\\wwwroot\\favicon.ico",
+      "SourceId": "QuickApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project\\React_MetaLearn\\QuickApp\\wwwroot\\",
+      "BasePath": "_content/QuickApp",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}

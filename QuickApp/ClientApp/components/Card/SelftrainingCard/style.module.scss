@@ -1,0 +1,67 @@
+.list-table{
+    border-spacing: 0 5px;
+
+    .question{
+        max-width: 500px;
+    }
+
+    th, 
+    td{
+        text-align: initial;
+        min-width: 150px;
+
+        &.price,
+        &.author,
+        &.time,
+        &.actions{
+            text-align: center;
+        }
+    }
+
+    i{
+        color: gray;
+    }
+
+    .actions{
+        span{
+            margin-right: 20px;
+            cursor: pointer;
+            
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.list-head{
+    th{
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: underline;
+        padding: 10px 10px 30px;
+
+        i{
+            margin-right: 5px;
+        }
+    }
+}
+
+.item{
+    td{
+        border-width: 1px 0 0;
+        border-style: solid;
+        border-color: #e7ecf1;
+        padding: 8px 10px;
+
+        &.question{
+            span{
+                font-weight: 600;
+            }
+        }
+    }
+
+    &:hover{
+        background-color: #f3f4f6;
+    }
+}
